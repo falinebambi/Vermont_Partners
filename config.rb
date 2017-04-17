@@ -44,10 +44,3 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-
-activate :contentful do |f|
-  f.space         = SPACE
-  f.access_token  = ACCESS_TOKEN
-  f.cda_query     = QUERY
-  f.content_types = CONTENT_TYPES_MAPPINGS
-end

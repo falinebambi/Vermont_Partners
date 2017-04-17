@@ -1,14 +1,9 @@
+
 body {
-  background-color: #46619B;
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+  font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
 }
-
 a {
   color: rgba(#000, 0.7);
 
@@ -17,13 +12,42 @@ a {
     color: rgba(#000, 0.6);
   }
 }
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
 img {
-  align-self: center;
-  max-width: 1200px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+small {
+  text-align: center;
+}
+.ptb {padding-top: 250px; padding-bottom: 300px;}
+.mtb {margin-top: 100px; margin-bottom: 100px;}
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.logo {
+  max-width: 25%;
+  padding: 1%;}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.magic {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.magic__title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.magic__who {
+  color: white;
 }
